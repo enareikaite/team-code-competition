@@ -1,0 +1,62 @@
+/* NAV BAR */
+header {
+  width: 100%;
+  height: 100px;
+  background: #F7F7F7;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  transition: .2s ease-out;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  width: 210px;
+  background-image: url(assets/little_learners_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+nav {
+  float: left;
+}
+
+.ul_heading {
+  padding: 0;
+  margin: 0;
+}
+
+.li_heading {
+  list-style: none;
+  float: left;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  height: 100px;
+  line-height: 100px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.li_heading:hover{
+  background-color: #26a3da;
+}
+
+/* END OF NAV BAR */
+
+/* Home Page */
+main{
+  height: 100vh;
+  background-color: purple;
+  }
+
+section {
+  min-height: 600px;
+  overflow: auto;
+  background-color: #dbf0f3;
+}
+
+section:nth-child(even){
+    background: #26a3da;
+}
