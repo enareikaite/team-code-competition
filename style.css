@@ -1,7 +1,7 @@
 /* NAV BAR */
 header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: #F7F7F7;
   position: fixed;
   z-index: 1;
@@ -11,8 +11,8 @@ header {
 
 .logo {
   float: left;
-  height: 100px;
-  width: 210px;
+  height: 80px;
+  width: 190px;
   background-image: url(assets/little_learners_logo.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -23,18 +23,19 @@ nav {
   float: left;
 }
 
-.ul_heading {
+
+.ul_hd {
   padding: 0;
   margin: 0;
 }
 
-.li_heading {
+.li_hd {
   list-style: none;
   float: left;
   text-align: center;
   padding: 0 20px 0 20px;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
   transition: 0.4s;
   cursor: pointer;
 }
@@ -45,18 +46,42 @@ nav {
 
 /* END OF NAV BAR */
 
-/* Home Page */
+/* LANDING PAGE */
 main{
-  height: 100vh;
-  background-color: purple;
+  height: 100%;
   }
 
+
 section {
-  min-height: 600px;
+  min-height: 350px;
   overflow: auto;
   background-color: #dbf0f3;
 }
 
 section:nth-child(even){
     background: #26a3da;
+}
+
+/* END OF LANDING PAGE */
+
+/* ABOUT PAGE */
+.ab_title {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2% 0;
+
+}
+
+.list-group{
+  margin: 0 5% 2% 5%;
+}
+
+.list-group-horizontal .list-group-item {
+  width: 100%;
+  text-align: center;
+  background-color: #dbf0f3;
+  border-bottom: none;
+  border-top: none;
+  margin: 2.5% 0;
 }
