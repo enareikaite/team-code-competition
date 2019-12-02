@@ -3,13 +3,15 @@
 
 <!-- HEAD !-->
 <head>
-  <title>Title_Placeholder </title>
+  <title>Little Learners </title>
 
   <!-- BOOTSTRAP !-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet">
   <!-- END OF BOOTSTRAP !-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 
 </head>
 <!-- END OF HEAD !-->
@@ -22,12 +24,13 @@
     <div class='logo'></div>
 
     <nav>
-      <ul class="ul_hd">
 
-        <li class="li_hd"> Home </li>
-        <li class="li_hd"> About Us </li>
-        <li class="li_hd"> Subjects </li>
-        <li class="li_hd"> Contact </li>
+      <ul class="ul_hd">
+        <li class="li_hd"> About </li>
+        <li class="li_hd"> Resources </li>
+        <li class="li_hd"> Community </li>
+        <li class="li_hd"> News </li>
+        <li class="li_hd"> Course </li>
 
       </ul>
     </nav>
@@ -47,7 +50,7 @@
           <img src="assets/writing.jpg" class="d-block w-100" alt="...">
 
           <div class="carousel-caption d-none d-md-block">
-        </div>
+          </div>
         </div>
 
         <!-- SECOND CAROUSEL !-->
@@ -107,15 +110,140 @@
     </ul>
 
   </section>
+  <!-- END OF ABOUT PAGE !-->
 
-  <!--  Page !-->
-  <section> </section>
+  <!-- TEACHERS PAGE !-->
+  <section>
+    <ul class="list-group list-group-horizontal">
 
-  <!--  Page !-->
-  <section> </section>
+      <!-- LEFT COLLUM !-->
+      <li class="list-group-item">
+
+        <!-- BUTTONS !-->
+        <div class="btn-group-vertical">
+
+          <!-- BUTTONS ONE !-->
+          <button type="button" class="btn btn-secondary btn-lg btn-block">
+            <h5 class="c1_title">FOR TEACHERS</h5>
+            <p class="c1_sub">Supporting you throughout your career</p>
+          </button>
+
+          <!-- BUTTONS ONE !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">RESOURCES</h5>
+            <p class="bt_sub">Save planning time and create great lessons</p>
+          </button>
+
+          <!-- BUTTONS TWO !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">COMMUNITY</h5>
+            <p class="bt_sub">Connect with like-minded educators to share ideas</p>
+          </button>
+
+          <!-- BUTTONS THREE !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">NEWS</h5>
+            <p class="bt_sub">The lastest educational news, research and analysis</p>
+          </button>
+
+          <!-- BUTTONS FOUR !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">COURSE</h5>
+            <p class="bt_sub">Train to teach or develop your career</p>
+          </button>
+        </div>
+       </li>
 
 
-  <footer> </footer>
+      <!-- RIGHT COLLUM !-->
+      <li class="list-group-item">
+
+        <!-- BUTTONS !-->
+        <div class="btn-group-vertical">
+
+          <!-- BUTTONS ONE !-->
+          <button type="button" class="btn btn-secondary btn-lg btn-block">
+            <h5 class="c1_title">FOR SCHOOLS</h5>
+            <p class="c1_sub">Supporting your school to achieve</p>
+          </button>
+
+          <!-- BUTTONS ONE !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">ATTRAACT</h5>
+            <p class="bt_sub">Transform the way you recruit</p>
+          </button>
+
+          <!-- BUTTONS TWO !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">TRAIN</h5>
+            <p class="bt_sub">Help your teachers build their ideal career</p>
+          </button>
+
+          <!-- BUTTONS THREE !-->
+          <button type="button" class="btn btn-primary btn-lg btn-block">
+            <h5 class="bt_title">EMPOWER</h5>
+            <p class="bt_sub">Help your teachers feel supported andd manage their classrooms</p>
+          </button>
+
+      </div>
+      </li>
+    </ul>
+
+   </section>
+   <!-- TEACHERS PAGE - END !-->
+
+  <!--  CONTACT PAGE - START !-->
+  <section>
+    <div class="ct_section">
+      <p class="ct_header">Have any questions? Want to get in touch?</p>
+      <p class="ct_info">Fill out our contact form <strong>NOW</strong>!</p>
+
+      <div>
+        <form>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email Address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+    <!--  CONTACT PAGE - END !-->
+
+<!--  FOOTER - START !-->
+  <footer>
+
+    <div class="ft_bottom">
+      <div class="ft_bt_left">
+        <ul class="main_link_section">
+          <li class="li_bt_left">&copy; 2019 Little Learners</li>
+          <li class="li_bt_left">Terms of use</li>
+          <li class="li_bt_left">Privacy Policy</li>
+        </ul>
+      </div>
+
+      <div class="ft_bt_right">
+        <ul class="main_link_section">
+          <li class="li_bt_right">Sitemap</li>
+          <li class="icons twitter"></li>
+          <li class="icons youtube"></li>
+          <li class="icons linkin"></li>
+          <li class="icons facebook"> </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </footer>
 
   <!-- BOOTSTRAP END -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
